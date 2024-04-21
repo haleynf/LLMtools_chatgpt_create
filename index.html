@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photography Blog</title>
+    <style>
+        body {
+            background-color: purple;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border: 5px solid white;
+        }
+        .gallery figcaption {
+            text-align: center;
+            font-size: 1.2em;
+            padding: 10px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: darkmagenta;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#stories">Stories</a>
+        <a href="#images">Images</a>
+        <a href="#about">About</a>
+    </div>
+
+    <div class="gallery" id="images">
+        <figure>
+            <img src="https://via.placeholder.com/800x600?text=Landscape+1" alt="Landscape 1">
+            <figcaption>Mountain Sunrise</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/800x600?text=Landscape+2" alt="Landscape 2">
+            <figcaption>Ocean View</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/800x600?text=Landscape+3" alt="Landscape 3">
+            <figcaption>Desert Dunes</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/800x600?text=Landscape+4" alt="Landscape 4">
+            <figcaption>Forest Trail</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/800x600?text=Landscape+5" alt="Landscape 5">
+            <figcaption>Waterfall</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/800x600?text=Landscape+6" alt="Landscape 6">
+            <figcaption>Sunset Beach</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/800x600?text=Landscape+7" alt="Landscape 7">
+            <figcaption>City Skyline</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/800x600?text=Landscape+8" alt="Landscape 8">
+            <figcaption>Snowy Mountains</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/800x600?text=Landscape+9" alt="Landscape 9">
+            <figcaption>Autumn Forest</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/800x600?text=Landscape+10" alt="Landscape 10">
+            <figcaption>Lake at Dawn</figcaption>
+        </figure>
+    </div>
+
+    <div class="footer">
+        <p>© 2024 Photography Blog. All rights reserved.</p>
+        <p>Contact: info@photographyblog.com</p>
+        <p>
+            Follow us on 
+            <a href="https://facebook.com" target="_blank">Facebook</a>,
+            <a href="https://twitter.com" target="_blank">Twitter</a>, and
+            <a href="https://instagram.com" target="_blank">Instagram</a>.
+        </p>
+    </div>
+</body>
+</html>
